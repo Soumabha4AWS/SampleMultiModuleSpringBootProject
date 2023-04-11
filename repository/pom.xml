@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.multi.module.springboot</groupId>
+    <artifactId>SampleMultiModuleSpringBootProject</artifactId>
+    <version>0</version>    
+  </parent>
+  <artifactId>repository</artifactId>
+  <name>RepositoryModule</name>
+  <description>Module for Repository</description>
+  <packaging>jar</packaging>
+  <dependencies>
+		<dependency>
+			<groupId>com.multi.module.springboot</groupId>
+   			<artifactId>entity</artifactId>
+    		<version>0</version>
+		</dependency>
+  </dependencies>
+</project>
